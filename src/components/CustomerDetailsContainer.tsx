@@ -5,7 +5,7 @@ import Image from 'next/image'
 const CustomerDetailsContainer: React.FC = () => {
   return (
     <section className="flex flex-col md:flex-row gap-y-5 md:gap-x-5 mt-5 w-full">
-    <div className="w-full md:basis-[60%] xl:basis-[75%] shadow-md rounded-md bg-white" style={{ borderRadius: 5 }}>
+    <div className="w-full md:basis-[60%] xl:basis-[75%] shadow-md rounded-md bg-white" style={{ borderRadius: 6 }}>
       <div className="">
         <h3 className="font-[inter] text-lg text-[#081735] font-bold border-b p-5">
           Customer Map
@@ -21,7 +21,7 @@ const CustomerDetailsContainer: React.FC = () => {
         />
       </div>
     </div>
-    <div className="w-full md:basis-[40%] xl:basis-[35%] shadow-md rounded-md bg-white p-5" style={{ borderRadius: 5 }}>
+    <div className="w-full md:basis-[40%] xl:basis-[35%] shadow-md rounded-md bg-white p-5" style={{ borderRadius: 6 }}>
       <h3 className="font-[inter] font-bold text-lg text-[#081735]">
         Customers List
       </h3>
