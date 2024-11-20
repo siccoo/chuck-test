@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Crete_Round, Inter, Noto_Sans } from "next/font/google";
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+const creteRound = Crete_Round({ subsets: ["latin"], weight: ["400"] });
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "700", "900"],
+  variable: "--font-inter",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const notoSans = Noto_Sans({
+  subsets: ["latin"],
+  weight: ["400", "700", "900"],
+  variable: "--font-notoSans",
 });
 
 export const metadata: Metadata = {
@@ -26,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${creteRound.className} ${inter.className} ${notoSans.className} antialiased`}
       >
         {children}
       </body>
