@@ -102,18 +102,18 @@ const MenuContainer: React.FC = () => {
             key={food.id}
             style={{ backgroundImage: `url(${food.image})`, borderRadius: 6 }}
           >
-            <div className="border rounded-md border-white p-3 flex justify-between  bg-white/50 backdrop-blur-md border-white/20 shadow-[0_4px_6px_-2px_rgba(30,41,59,0.3),0_12px_16px_-4px_rgba(30,41,59,0.3)] w-full">
+            <div className="border rounded-md border-white p-3 flex justify-between  bg-white/50 backdrop-blur-md border-white/20 shadow-[0_4px_6px_-2px_rgba(30,41,59,0.3),0_12px_16px_-4px_rgba(30,41,59,0.3)] w-full" style={{ borderRadius: 6 }}>
               <div>
-                <h5 className="font-[inter] font-medium text-sm text-[#1E293B]">
+                <h5 className="font-[inter] font-semibold text-[12px] text-[#1E293B]">
                   {food.title}
                 </h5>
-                <span className="font-[inter] font-normal text-xs text-chucky-gray-100">
+                <span className="font-[inter] font-normal text-[11px] text-chucky-gray-100">
                   {food.served} served
                 </span>
               </div>
               <div>
                 <p
-                  className={`font-[inter] font-medium text-sm text-[#1E293B]`}
+                  className={`font-[inter] font-semibold text-[12px] text-[#1E293B]`}
                 >
                   ${food.price}
                 </p>
