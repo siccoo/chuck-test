@@ -42,6 +42,7 @@ const CardContainer: React.FC = () => {
         <div
           key={card.id}
           className="shadow-md p-5 rounded-md flex flex-col gap-y-5 bg-white"
+          style={{ borderRadius: 5 }}
         >
           <Image src={card.icon} alt={card.title} width={24} height={24} />
 

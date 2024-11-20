@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import Sidebar from "@/components/dashboard/Sidebar";
+import Sidebar from "@/components/Sidebar";
 
 const layout = ({ children }: { children: React.ReactNode }) => {
   return (

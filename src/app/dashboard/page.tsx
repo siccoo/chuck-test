@@ -1,4 +1,4 @@
-import CardContainer from '@/components/dashboard/CardContainer'
+import CardContainer from '@/components/CardContainer';
 import React from 'react'
 
 const page = () => {
