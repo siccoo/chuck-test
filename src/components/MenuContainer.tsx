@@ -62,15 +62,15 @@ const MenuContainer: React.FC = () => {
         >
           <div className="border rounded-md border-white p-3 flex justify-between  bg-white/50 backdrop-blur-md border-white/20 shadow-[0_4px_6px_-2px_rgba(30,41,59,0.3),0_12px_16px_-4px_rgba(30,41,59,0.3)] w-full" style={{ borderRadius: 6 }}>
             <div>
-              <h5 className="font-[inter] font-medium text-sm text-[#1E293B]">
+              <h5 className="font-[inter] font-medium text-[12px] text-[#1E293B]">
                 Shaking Beef Tri-Tip
               </h5>
-              <span className="font-[inter] font-normal text-xs text-chucky-gray-100">
+              <span className="font-[inter] font-normal text-[11px] text-chucky-gray-100">
                 456 served
               </span>
             </div>
             <div>
-              <p className={`font-[inter] font-medium text-sm text-[#1E293B]`}>
+              <p className={`font-[inter] font-medium text-[12px] text-[#1E293B]`}>
                 $69.47
               </p>
             </div>
@@ -79,15 +79,15 @@ const MenuContainer: React.FC = () => {
         <div className="xl:basis-[35%] object-contain bg-cover bg-center bg-no-repeat bg-[url('/images/menu2.jpg')] rounded-md min-h-[240px] xl:min-h-[350px] p-2 xl:p-3 flex items-end w-[258px] xl:w-full xl:shrink shrink-0" style={{ borderRadius: 6 }}>
           <div className="border rounded-md border-white p-3 flex justify-between  bg-white/50 backdrop-blur-md border-white/20 shadow-[0_4px_6px_-2px_rgba(30,41,59,0.3),0_12px_16px_-4px_rgba(30,41,59,0.3)] w-full" style={{ borderRadius: 6 }}>
             <div>
-              <h5 className="font-[inter] font-medium text-sm text-[#1E293B]">
+              <h5 className="font-[inter] font-medium text-[12px] text-[#1E293B]">
                 Shaking Beef Tri-Tip
               </h5>
-              <span className="font-[inter] font-normal text-xs text-chucky-gray-100">
+              <span className="font-[inter] font-normal text-[11px] text-chucky-gray-100">
                 456 served
               </span>
             </div>
             <div>
-              <p className={`font-[inter] font-medium text-sm text-[#1E293B]`}>
+              <p className={`font-[inter] font-medium text-[12px] text-[#1E293B]`}>
                 $69.47
               </p>
             </div>
@@ -104,7 +104,7 @@ const MenuContainer: React.FC = () => {
           >
             <div className="border rounded-md border-white p-3 flex justify-between  bg-white/50 backdrop-blur-md border-white/20 shadow-[0_4px_6px_-2px_rgba(30,41,59,0.3),0_12px_16px_-4px_rgba(30,41,59,0.3)] w-full" style={{ borderRadius: 6 }}>
               <div>
-                <h5 className="font-[inter] font-semibold text-[12px] text-[#1E293B]">
+                <h5 className="font-[inter] font-medium text-[12px] text-[#1E293B]">
                   {food.title}
                 </h5>
                 <span className="font-[inter] font-normal text-[11px] text-chucky-gray-100">
@@ -113,7 +113,7 @@ const MenuContainer: React.FC = () => {
               </div>
               <div>
                 <p
-                  className={`font-[inter] font-semibold text-[12px] text-[#1E293B]`}
+                  className={`font-[inter] font-medium text-[12px] text-[#1E293B]`}
                 >
                   ${food.price}
                 </p>

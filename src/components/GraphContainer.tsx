@@ -61,6 +61,7 @@ const GraphContainer: React.FC = () => {
           </DropdownMenu>
         </div>
         <div className="p-5">
+        <p className="font-inter font-bold text-2xl leading-none">$112,340</p>
           <BarChart />
         </div>
       </div>

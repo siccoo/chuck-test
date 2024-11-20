@@ -73,10 +73,16 @@ const PieChart: React.FC = () => {
       <div className="mt-8 flex xl:flex-col gap-y-5">
         {/* Daily Customers */}
         <div className="flex flex-col justify-center xl:justify-start xl:flex-row items-center space-x-4 text-center xl:text-left">
-          <Image src="/images/Charts1.svg" alt="icon" width={70} height={70} className="w-[40px] h-[50px] xl:w-[80px] xl:h-[80px] mb-2 xl:mb-0"/>
+          <Image
+            src="/images/Charts1.svg"
+            alt="icon"
+            width={70}
+            height={70}
+            className="w-[40px] h-[50px] xl:w-[80px] xl:h-[80px] mb-2 xl:mb-0"
+          />
           <div>
             <p className="font-bold">+18%</p>
-            <p className="text-sm text-gray-500 font-[inter]">
+            <p className="text-[11px] text-gray-500 font-[inter]">
               Daily customers
             </p>
           </div>
@@ -84,10 +90,16 @@ const PieChart: React.FC = () => {
 
         {/* Weekly New Customers */}
         <div className="flex flex-col justify-center xl:justify-start xl:flex-row items-center space-x-4 text-center xl:text-left">
-        <Image src="/images/Charts2.svg" alt="icon" width={70} height={70} className="w-[40px] h-[50px] xl:w-[80px] xl:h-[80px] mb-2 xl:mb-0"/>
+          <Image
+            src="/images/Charts2.svg"
+            alt="icon"
+            width={70}
+            height={70}
+            className="w-[40px] h-[50px] xl:w-[80px] xl:h-[80px] mb-2 xl:mb-0"
+          />
           <div>
             <p className="font-bold">+14%</p>
-            <p className="text-sm text-gray-500 font-[inter]">
+            <p className="text-[11px] text-gray-500 font-[inter]">
               Weekly new customers
             </p>
           </div>
