@@ -104,7 +104,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
           </div>
         </header>
         <ScrollArea className="h-[90vh]">
-          <div className="p-3 pb-24 xl:pb-14 bg-[#F8F9FB] w-screen xl:w-full">
+          <div className="p-3 pb-24 xl:pb-14 bg-[#F8F9FF] w-screen xl:w-full">
             {children}
           </div>
         </ScrollArea>

@@ -1,10 +1,11 @@
 import CardContainer from '@/components/CardContainer';
-import React from 'react'
+import GraphContainer from '@/components/GraphContainer';
 
 const page = () => {
   return (
     <div>
       <CardContainer />
+      <GraphContainer />
     </div>
   )
 }

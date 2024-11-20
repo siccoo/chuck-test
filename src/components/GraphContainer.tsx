@@ -1,5 +1,5 @@
-import BarChart from "@/components/dashboard/BarChart";
-import PieChart from "@/components/dashboard/PieChart";
+import BarChart from "@/components/BarChart";
+import PieChart from "@/components/PieChart";
 import {
   DropdownMenu,
   DropdownMenuContent,
