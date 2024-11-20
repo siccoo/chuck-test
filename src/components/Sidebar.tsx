@@ -5,7 +5,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { RiMenu3Fill, RiCloseLargeFill } from "react-icons/ri";
 
-const Sidebar = () => {
+const Sidebar: React.FC = () => {
   const navMenu = [
     {
       id: crypto.randomUUID(),

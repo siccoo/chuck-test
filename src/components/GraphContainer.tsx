@@ -9,10 +9,10 @@ import Image from "next/image";
 import React from "react";
 import { FaEllipsisH } from "react-icons/fa";
 
-const GraphContainer = () => {
+const GraphContainer: React.FC = () => {
   return (
     <section className="flex md:flex-row flex-col gap-y-5 md:gap-x-5 w-full">
-      <div className="shadow-md rounded-md w-full xl:basis-2/4 bg-white">
+      <div className="shadow-md rounded-md w-full xl:basis-2/4 bg-white" style={{ borderRadius: 5 }}>
         <div className="flex items-end justify-between p-5 border-b h-[80px]">
           <h3 className="font-[inter] text-[#081735] font-bold text-lg">
             Revenue
@@ -64,7 +64,7 @@ const GraphContainer = () => {
           <BarChart />
         </div>
       </div>
-      <div className="shadow-md rounded-md w-full xl:basis-2/4 bg-white">
+      <div className="shadow-md rounded-md w-full xl:basis-2/4 bg-white" style={{ borderRadius: 5 }}>
         <div className="flex items-end justify-between p-5 border-b h-[80px]">
           <div>
             <h3 className="font-[inter] text-[#081735] font-bold text-lg">
