@@ -4,6 +4,7 @@ import "./globals.css";
 import Image from "next/image";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import Sidebar from "@/components/Sidebar";
+import Script from "next/script";
 
 const creteRound = Crete_Round({ subsets: ["latin"], weight: ["400"] });
 const inter = Inter({
@@ -29,6 +30,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-MDYTH5Q24G"
+        ></Script>
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-MDYTH5Q24G');
+        `}
+        </Script>
+      </head>
       <body
         className={`${creteRound.className} ${inter.className} ${notoSans.className} antialiased`}
       >
