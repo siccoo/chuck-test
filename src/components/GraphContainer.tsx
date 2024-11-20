@@ -23,7 +23,7 @@ const GraphContainer = () => {
                 <FaEllipsisH className="text-chucky-gray-300 font-normal" />
               </button>
             </DropdownMenuTrigger>
-            <DropdownMenuContent className="min-w-[150px] p-3 flex flex-col gap-y-3.5">
+            <DropdownMenuContent className="min-w-[150px] bg-white p-3 flex flex-col gap-y-3.5">
               <button className="flex items-center gap-x-3">
                 <Image
                   src="/images/View.svg"
@@ -80,7 +80,7 @@ const GraphContainer = () => {
                 <FaEllipsisH className="text-chucky-gray-300 font-normal" />
               </button>
             </DropdownMenuTrigger>
-            <DropdownMenuContent className="min-w-[150px] p-3 flex flex-col gap-y-3.5">
+            <DropdownMenuContent className="min-w-[150px] bg-white p-3 flex flex-col gap-y-3.5">
               <button className="flex items-center gap-x-3">
                 <Image
                   src="/images/View.svg"

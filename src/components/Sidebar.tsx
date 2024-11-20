@@ -245,7 +245,7 @@ const Sidebar = () => {
               </Link>
             ))}
           </nav>
-          <div className="p-4 flex flex-col gap-y-2 shadow-lg mt-2 mb-10 mr-8 rounded-[10px] bg-[#F8F9FB]">
+          <div className="p-4 flex flex-col gap-y-2 shadow-lg mt-20 mb-10 mr-8 rounded-[10px] bg-[#F8F9FB]">
             <div className=" flex items-end justify-end text-right">
               <Image
                 src="/images/close.svg"

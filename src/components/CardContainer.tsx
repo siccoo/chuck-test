@@ -41,7 +41,7 @@ const CardContainer: React.FC = () => {
       {cardData.map((card) => (
         <div
           key={card.id}
-          className="shadow-md p-5 rounded-md flex flex-col gap-y-5 bg-white"
+          className="shadow-md p-5 rounded-md flex flex-col gap-y-5 bg-[#ffffff]"
           style={{ borderRadius: 5 }}
         >
           <Image src={card.icon} alt={card.title} width={24} height={24} />
