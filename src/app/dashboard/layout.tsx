@@ -50,16 +50,16 @@ const layout = ({ children }: { children: React.ReactNode }) => {
             <div className="flex items-center xl:gap-x-20">
               <div className="flex items-center gap-x-3.5">
                 <Image
-                  src="/images/Notification.svg"
+                  src="/images/notifyIcon.png"
                   alt="icon"
-                  width={14}
-                  height={14}
+                  width={35}
+                  height={35}
                 />
                 <Image
-                  src="/images/Message.svg"
+                  src="/images/mailIcon.png"
                   alt="icon"
-                  width={14}
-                  height={14}
+                  width={35}
+                  height={35}
                 />
               </div>
               <div className="hidden xl:flex items-center gap-x-3.5">
@@ -68,7 +68,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
                   alt="icon"
                   width={48}
                   height={48}
-                  className="w-[48px] h-[48px] aspect-[48/48] shadow-sm object-contain"
+                  className="w-[48px] h-[48px]"
                 />
                 <h5 className="font-bold font-[inter] text-base hidden xl:block">
                   Tynisha Obey
