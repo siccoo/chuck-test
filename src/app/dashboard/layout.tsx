@@ -48,18 +48,18 @@ const layout = ({ children }: { children: React.ReactNode }) => {
               />
             </div>
             <div className="flex items-center xl:gap-x-20">
-              <div className="flex items-center gap-x-3.5">
+              <div className="flex items-center gap-x-2">
                 <Image
                   src="/images/notifyIcon.png"
                   alt="icon"
-                  width={35}
-                  height={35}
+                  width={40}
+                  height={40}
                 />
                 <Image
                   src="/images/mailIcon.png"
                   alt="icon"
-                  width={35}
-                  height={35}
+                  width={40}
+                  height={40}
                 />
               </div>
               <div className="hidden xl:flex items-center gap-x-3.5">
